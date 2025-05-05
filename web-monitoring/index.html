@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Monitoring Program Kerja</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+    .status {
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+    }
+    .belum { background-color: #e67e22; }
+    .berjalan { background-color: #f1c40f; }
+    .selesai { background-color: #2ecc71; }
+  </style>
+</head>
+<body>
+
+  <h1>Monitoring Program Kerja</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nama Program</th>
+        <th>Penanggung Jawab</th>
+        <th>Deadline</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pelatihan Digital Marketing</td>
+        <td>Andi</td>
+        <td>10 Mei 2025</td>
+        <td><span class="status berjalan">Berjalan</span></td>
+      </tr>
+      <tr>
+        <td>Workshop UI/UX</td>
+        <td>Agus</td>
+        <td>20 Mei 2025</td>
+        <td><span class="status belum">Belum Mulai</span></td>
+      </tr>
+      <tr>
+        <td>Webinar Bisnis Online</td>
+        <td>Rahmat</td>
+        <td>1 Mei 2025</td>
+        <td><span class="status selesai">Selesai</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
